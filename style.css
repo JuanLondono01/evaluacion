@@ -1,0 +1,187 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 6rem;
+    background-color: lightblue;
+    justify-content: center;
+}
+
+nav img {
+    margin-left: 2rem;
+    margin-top: -1.5rem;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+nav h1 {
+    text-align: right;
+    margin-right: 10rem;
+    margin-top: -4rem;
+}
+
+.links ul {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin-right: 8rem;
+    margin-top: 1rem;
+}
+
+/* main */
+
+.main {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    height: 60vh;
+    gap: 10px;
+}
+
+.aside {
+    grid-column: 1/3;
+    height: 100%;
+    background-color: rgb(247, 188, 182);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.aside p {
+    font-size: 1.2rem;
+    width: 12rem;
+}
+
+.aside button {
+    height: 20%;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    background-color: rgb(249, 121, 74);
+    color: white;
+}
+
+.cursos {
+    grid-column: 3/12;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    gap: 20px;
+}
+
+.cursos h3 {
+    font-weight: 100;
+}
+
+.cur-imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* Profesores */
+
+.profesores {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    height: 40vh;
+    background-color: mintcream;
+    gap: 10px;
+}
+
+.prof-pp {
+    grid-column: 1/3;
+    border: 1px solid black;
+}
+
+.prof-info {
+    grid-column: 3/12;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.prof-info div {
+    border: 1px solid black;
+}
+
+/* Videos */
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(192, 223, 250);
+}
+
+.vid-cur {
+    display: flex;
+    gap: 20px;
+}
+
+.cur-info {
+    height: 12rem;
+    margin-top: -0.2rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cur-info h3 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.cur-info p {
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: lightgray;
+}
+
+footer{
+    height: 50vh;
+    margin-top: 1rem;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.interes ul, .portales ul, .contactos ul{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
