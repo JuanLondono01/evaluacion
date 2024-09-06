@@ -108,6 +108,7 @@ nav h1 {
 .prof-pp {
 	grid-column: 1/3;
 	border: 1px solid black;
+	border-radius: 8px;
 	width: 270px;
 	height: 278px;
 }
@@ -115,6 +116,7 @@ nav h1 {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-column: 3/12;
+	gap: 10px;
 }
 .prof-info div {
 	border: 1px solid black;
@@ -124,6 +126,7 @@ nav h1 {
 	align-items: center;
 	font-size: 1.3rem;
 	padding: 10px;
+	border-radius: 8px;
 }
 
 .prof-info div ul li{
