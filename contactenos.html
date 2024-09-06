@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Contactos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="./imgs/logo.png" height="80" width="80" alt="Logo de la empresa" /></a>
+            <h1>PORTAL DE ENSEÑANZA EN DESARROLLO WEB</h1>
+        </nav>
+    </header>
+    <div class="links">
+        <ul>
+            <li><a href="inscripciones.html">Inscripciones</a></li>
+            <li><a href="programas.html">Programas</a></li>
+            <li><a href="cursosCortos.html">Cursos cortos</a></li>
+            <li><a href="ForEmpre.html">Formacion Empresarial</a></li>
+            <li><a href="contactenos.html">Contactenos</a></li>
+        </ul>
+    </div>
+    <section class="contactos">
+        <h2>Contáctanos</h2>
+        <p>Estamos aquí para ayudarte. Por favor, rellena el siguiente formulario para ponerte en contacto con nosotros, o utiliza cualquiera de los métodos de contacto listados abajo.</p>
+
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required autocomplete='off' />
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required autocomplete='off'/>
+            </div>
+            <div class="form-group">
+                <label for="subject">Asunto:</label>
+                <input type="text" id="subject" name="subject" required autocomplete='off'/>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+
+        <div class="info-contacto">
+            <div class="info-item">
+                <h3>Correo Electrónico</h3>
+                <p><a href="mailto:contacto@empresa.com">contacto@empresa.com</a></p>
+            </div>
+            <div class="info-item">
+                <h3>Teléfono</h3>
+                <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            </div>
+            <div class="info-item">
+                <h3>Dirección</h3>
+                <p> Cra. 57 #51-83, La Candelaria, Medellín, La Candelaria, Medellín, Antioquia</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class='con-footer'>
+        <p>&copy; 2024 Portal de Enseñanza en Desarrollo Web. Todos los derechos reservados.</p>
+        <p><a href="contactenos.html">Contáctanos</a> | <a href="#">Política de privacidad</a></p>
+    </footer>
+</body>
+</html>
