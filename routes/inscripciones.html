@@ -3,16 +3,16 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="shortcut icon" href="./imgs/logo.png" type="image/x-icon" />
-        <link rel="stylesheet" href="./style.css" />
+        <link rel="shortcut icon" href="../imgs/logo.png" type="image/x-icon" />
+        <link rel="stylesheet" href="../style.css" />
         <title>Inscripciones</title>
     </head>
     <body>
         <header>
             <nav>
-                <a href="index.html"
+                <a href="../index.html"
                     ><img
-                        src="./imgs/logo.png"
+                        src="../imgs/logo.png"
                         height="80"
                         width="80"
                         alt="Logo de la empresa"
@@ -22,14 +22,15 @@
         </header>
         <div class="links">
             <ul>
-                <li><a href="inscripciones.html">Inscripciones</a></li>
-                <li><a href="programas.html">Programas</a></li>
-                <li><a href="cursosCortos.html">Cursos cortos</a></li>
-                <li><a href="ForEmpre.html">Formacion Empresarial</a></li>
-                <li><a href="contactenos.html">Contactenos</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./inscripciones.html">Inscripciones</a></li>
+                <li><a href="./programas.html">Programas</a></li>
+                <li><a href="./cursosCortos.html">Cursos cortos</a></li>
+                <li><a href="./ForEmpre.html">Formacion Empresarial</a></li>
+                <li><a href="./contactenos.html">Contactenos</a></li>
             </ul>
         </div>
-        <main>
+        <main class='insc-main'>
             <section class="inscripcion-intro">
                 <h2>
                     Inscríbete y Comienza tu Trayectoria en el Desarrollo Web
@@ -47,12 +48,12 @@
                 <form action="#" method="post">
                     <div class="form-group">
                         <label for="nombre">Nombre Completo:</label>
-                        <input type="text" id="nombre" name="nombre" required />
+                        <input type="text" id="nombre" name="nombre" required autocomplete='off' placeholder='Jhon Doe'/>
                     </div>
 
                     <div class="form-group">
                         <label for="email">Correo Electrónico:</label>
-                        <input type="email" id="email" name="email" required />
+                        <input type="email" id="email" name="email" required autocomplete='off' placeholder='Example@gmail.com'/>
                     </div>
 
                     <div class="form-group">
@@ -62,6 +63,7 @@
                             id="telefono"
                             name="telefono"
                             required
+                            autocomplete='off'
                         />
                     </div>
 
