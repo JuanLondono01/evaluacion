@@ -501,7 +501,7 @@ footer a {
 
 }
 .insc-main{
-	height: 110vh;
+	height: 130vh;
 }
 
 form {
@@ -516,11 +516,12 @@ form {
 	display: flex;
 	flex-direction: column;
 	gap: 0.5rem;
+	margin-top: .5rem;
 }
 label {
 	display: block;
-	margin-bottom: 0.5rem;
 	color: #333;
+	margin-top: .5rem;
 	font-size: 1.1rem;
 }
 input[type='text'],
