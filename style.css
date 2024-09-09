@@ -268,7 +268,7 @@ footer {
 	justify-content: space-around;
 	margin-top: 1rem;
 	background-color: gray;
-	height: 47vh;
+	height: 50vh;
 }
 footer li {
 	list-style: none;
@@ -295,6 +295,21 @@ footer a {
 	color: white;
 	font-size: 1.5rem;
 }
+.redes{
+	margin-top: 6rem;
+	display: flex;
+	gap: 20px;
+}
+
+.redes img{
+	cursor: pointer;
+	transition: .3s ease;
+}
+
+.redes img:hover{
+	transform: scale(1.2);
+}
+
 /* Flutter Android Studio Ionic Section*/
 .flutter-main,
 .android-main,
