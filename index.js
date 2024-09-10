@@ -1,10 +1,10 @@
 const check = document.getElementById('check');
-const arrow = document.getElementById('arrow')
+const verInfo = document.getElementById('ver-info');
 
 check.addEventListener('change', ()=>{
     if (check.checked) {
-        arrow.src = './imgs/backward.png'
+        verInfo.classList.remove('active')
     }else{
-        arrow.src ='./imgs/forward.png'
+        verInfo.classList.add('active')
     }
 })
